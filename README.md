@@ -5,29 +5,16 @@
 
 
 :h:
-
 :rh:
-
 :oh:
-
 :yh:
-
 :gh:
-
 :dgh:
-
 :ah:
-
 :dah:
-
 :ph:
-
 :dph:
-
 :wh:
-
 :grh:
-
 :dgrh:
-
 :blh:
