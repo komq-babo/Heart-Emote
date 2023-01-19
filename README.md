@@ -5,16 +5,31 @@
 
 
 :h:
+
 :rh:
+
 :oh:
+
 :yh:
+
 :gh:
+
 :dgh:
+
 :ah:
+
 :dah:
+
 :ph:
+
 :dph:
+
 :wh:
+
 :grh:
+
 :dgrh:
+
 :blh:
+
+이런 걸 치면 하트로 변환되어 나옴
