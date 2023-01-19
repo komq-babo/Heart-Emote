@@ -1,2 +1,2 @@
 # Heart-Emote-Plugin
-모에모에 큥❤
+모에모에큥❤
