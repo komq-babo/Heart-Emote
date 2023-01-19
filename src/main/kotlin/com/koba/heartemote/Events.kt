@@ -24,8 +24,8 @@ class Events: Listener {
         string = string.replace(":ph:", "${ChatColor.LIGHT_PURPLE}❤")
         string = string.replace(":dph:", "${ChatColor.DARK_PURPLE}❤")
         string = string.replace(":wh:", "${ChatColor.WHITE}❤")
-        string = string.replace(":gh:", "${ChatColor.GRAY}❤")
-        string = string.replace(":dgh:", "${ChatColor.DARK_GRAY}❤")
+        string = string.replace(":grh:", "${ChatColor.GRAY}❤")
+        string = string.replace(":dgrh:", "${ChatColor.DARK_GRAY}❤")
         string = string.replace(":blh:", "${ChatColor.BLACK}❤")
 
         event.message = string
