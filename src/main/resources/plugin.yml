@@ -1,6 +1,6 @@
 name: HeartEmote
 main: io.github.koba.heartemote.HeartEmotePlugin
 api-version: 1.19
-version: 1.0.1
+version: 1.0.0
 author: Koba
 depend: [Kotlin]
