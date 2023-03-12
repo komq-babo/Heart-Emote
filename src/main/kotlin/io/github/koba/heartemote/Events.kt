@@ -11,22 +11,22 @@ class Events: Listener {
     fun onChat(event: AsyncPlayerChatEvent) {
         var string: String = event.message
 
-        string = string.replace(":h:", "${ChatColor.RED}❤")
-        string = string.replace(":rh:", "${ChatColor.DARK_RED}❤")
-        string = string.replace(":oh:", "${ChatColor.GOLD}❤")
-        string = string.replace(":yh:", "${ChatColor.YELLOW}❤")
-        string = string.replace(":gh:", "${ChatColor.GREEN}❤")
-        string = string.replace(":dgh:", "${ChatColor.DARK_GREEN}❤")
-        string = string.replace(":ah:", "${ChatColor.AQUA}❤")
-        string = string.replace(":dah:", "${ChatColor.DARK_AQUA}❤")
-        string = string.replace(":bh:", "${ChatColor.BLUE}❤")
-        string = string.replace(":dbh:", "${ChatColor.DARK_BLUE}❤")
-        string = string.replace(":ph:", "${ChatColor.LIGHT_PURPLE}❤")
-        string = string.replace(":dph:", "${ChatColor.DARK_PURPLE}❤")
-        string = string.replace(":wh:", "${ChatColor.WHITE}❤")
-        string = string.replace(":grh:", "${ChatColor.GRAY}❤")
-        string = string.replace(":dgrh:", "${ChatColor.DARK_GRAY}❤")
-        string = string.replace(":blh:", "${ChatColor.BLACK}❤")
+        string = string.replace(":h:", "${ChatColor.RED}❤${ChatColor.WHITE}")
+        string = string.replace(":rh:", "${ChatColor.DARK_RED}❤${ChatColor.WHITE}")
+        string = string.replace(":oh:", "${ChatColor.GOLD}❤${ChatColor.WHITE}")
+        string = string.replace(":yh:", "${ChatColor.YELLOW}❤${ChatColor.WHITE}")
+        string = string.replace(":gh:", "${ChatColor.GREEN}❤${ChatColor.WHITE}")
+        string = string.replace(":dgh:", "${ChatColor.DARK_GREEN}❤${ChatColor.WHITE}")
+        string = string.replace(":ah:", "${ChatColor.AQUA}❤${ChatColor.WHITE}")
+        string = string.replace(":dah:", "${ChatColor.DARK_AQUA}❤${ChatColor.WHITE}")
+        string = string.replace(":bh:", "${ChatColor.BLUE}❤${ChatColor.WHITE}")
+        string = string.replace(":dbh:", "${ChatColor.DARK_BLUE}❤${ChatColor.WHITE}")
+        string = string.replace(":ph:", "${ChatColor.LIGHT_PURPLE}❤${ChatColor.WHITE}")
+        string = string.replace(":dph:", "${ChatColor.DARK_PURPLE}❤${ChatColor.WHITE}")
+        string = string.replace(":wh:", "${ChatColor.WHITE}❤${ChatColor.WHITE}")
+        string = string.replace(":grh:", "${ChatColor.GRAY}❤${ChatColor.WHITE}")
+        string = string.replace(":dgrh:", "${ChatColor.DARK_GRAY}❤${ChatColor.WHITE}")
+        string = string.replace(":blh:", "${ChatColor.BLACK}❤${ChatColor.WHITE}")
 
         event.message = string
     }
