@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.example"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -15,7 +15,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
+    implementation(kotlin("stdlib"))
+    implementation(kotlin("reflect"))
+    compileOnly("io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT")
 }
 
 tasks.test {
