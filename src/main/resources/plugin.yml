@@ -3,4 +3,6 @@ main: io.github.koba.heartemote.HeartEmotePlugin
 api-version: 1.19
 version: 1.0.0
 author: Koba
-depend: [Kotlin]
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.20-RC2
+  - org.jetbrains.kotlin:kotlin-reflect:1.8.20-RC2
